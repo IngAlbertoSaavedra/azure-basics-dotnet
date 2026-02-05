@@ -3,3 +3,17 @@ Dia 2 -
 IaaS -> Mayor responsabilidad Consumidor
 SasS -> Mayor responsabilidad Nube
 PaaS -> 50 y 50
+
+
+Problema:
+- git push fallaba con: "Could not resolve hostname unadm"
+- ssh -T unadm sí autenticaba bien.
+
+Causa probable:
+- git remote add origin git@UNADM:IngAlbertoSaavedra/azure-basics-dotnet.git
+
+le puse UNADM y en el config del ssh, solo era unadm
+
+Solución:
+- Ajuste el config con unadm UNADM
+- Push exitoso y upstream configurado para main.
