@@ -1,0 +1,5 @@
+Dia 2 -
+
+IaaS -> Mayor responsabilidad Consumidor
+SasS -> Mayor responsabilidad Nube
+PaaS -> 50 y 50
